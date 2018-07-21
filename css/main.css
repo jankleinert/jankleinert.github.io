@@ -13,12 +13,12 @@ h1 {
 }
 
 .img-circular {
-	width: 500px;
-	height: 500px;
+	width: 250px;
+	height: 250px;
 	background-image: url('../images/jankleinert-square.jpg');
 	background-size: cover;
 	display: block;
-	border-radius: 250px;
-	-webkit-border-radius: 250px;
-	-moz-border-radius: 250px;
+	border-radius: 125px;
+	-webkit-border-radius: 125px;
+	-moz-border-radius: 125px;
 }
