@@ -6,6 +6,11 @@ body {
 
 h1 {
 	color: #f4c06c;
+	font-size: 3rem;
+}
+
+.intro {
+	text-align: center;
 }
 
 .intro-text {
