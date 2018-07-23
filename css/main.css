@@ -6,9 +6,18 @@ body {
 }
 
 nav {
-	background-color: #22222;
+	background-color: #222222;
 	height: 40px;
 	color: #afafaf;
+}
+
+nav a {
+	color: #afafaf;
+	text-decoration: none;
+}
+
+.nav-wrapper {
+	padding: 8px;
 }
 
 .nav-contact {
