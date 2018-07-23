@@ -5,25 +5,6 @@ body {
 	margin: 0;
 }
 
-/*nav {
-	background-color: #222222;
-	height: 40px;
-	color: #afafaf;
-}
-
-nav a {
-	color: #afafaf;
-	text-decoration: none;
-}
-
-.nav-wrapper {
-	padding: 8px;
-}
-
-.nav-contact {
-	float: right;
-}*/
-
 h1 {
 	color: #f4c06c;
 	font-size: 4rem;
@@ -86,3 +67,41 @@ h1 {
 	margin-top: -10px;
 	margin-left: -20px;
 }
+
+@media all and (min-width: 1024px) and (max-width: 1268px) { 
+
+	.img-circular {
+		width: 400px;
+		height: 400px;
+		border-radius: 200px;
+		-webkit-border-radius: 200px;
+		-moz-border-radius: 200px;
+
+	}
+
+	.speech-bubble {
+		width: 450px;
+		margin-left: 425px;
+		margin-top: 40px;
+	}
+
+	.intro-title {
+		font-size: 1.75rem;
+	}
+
+	.intro-text {
+		font-size: 1.25rem;
+	}
+}
+
+@media all and (min-width: 968px) and (max-width: 1023px) 
+{  }
+
+@media all and (min-width: 768px) and (max-width: 967px) 
+{  }
+
+@media all and (min-width: 480px) and (max-width: 767px) 
+{  }
+
+@media all and (max-width: 479px) 
+{  }
