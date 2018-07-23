@@ -53,3 +53,25 @@ h1 {
 	-webkit-border-radius: 125px;
 	-moz-border-radius: 125px;
 }
+
+.speech-bubble {
+	position: relative;
+	background: #f4c06c;
+	border-radius: .4em;
+	color: #222222;
+}
+
+.speech-bubble:after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	width: 0;
+	height: 0;
+	border: 20px solid transparent;
+	border-top-color: #00aabb;
+	border-bottom: 0;
+	border-left: 0;
+	margin-left: -10px;
+	margin-bottom: -20px;
+}
