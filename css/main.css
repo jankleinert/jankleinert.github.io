@@ -34,13 +34,13 @@ h1 {
 }
 
 .intro-title {
-	color: #f4c06c;
+	/*color: #f4c06c;*/
 	font-weight: bold;
 	font-style: italic;
 }
 
 .intro-text {
-	color: #f4c06c;
+	/*color: #f4c06c;*/
 }
 
 .img-circular {
@@ -59,19 +59,21 @@ h1 {
 	background: #f4c06c;
 	border-radius: .4em;
 	color: #222222;
+	width: 500px;
+	margin-left: 300px;
 }
 
 .speech-bubble:after {
 	content: '';
 	position: absolute;
-	bottom: 0;
-	left: 50%;
+	left: 0;
+	top: 50%;
 	width: 0;
 	height: 0;
 	border: 20px solid transparent;
-	border-top-color: #00aabb;
-	border-bottom: 0;
+	border-right-color: #f4c06c;
 	border-left: 0;
-	margin-left: -10px;
-	margin-bottom: -20px;
+	border-top: 0;
+	margin-top: -10px;
+	margin-left: -20px;
 }
