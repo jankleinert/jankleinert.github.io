@@ -27,20 +27,26 @@ nav a {
 h1 {
 	color: #f4c06c;
 	font-size: 3rem;
+	text-align: left;
 }
 
 .intro {
 	text-align: center;
+	padding-left: 50px;
+
 }
 
 .intro-title {
 	/*color: #f4c06c;*/
 	font-weight: bold;
 	font-style: italic;
+	font-size: 1.5em;
+	padding: 10px 10px 10px 10px;
 }
 
 .intro-text {
 	/*color: #f4c06c;*/
+	padding: 0px 10px 10px 10px ;
 }
 
 .img-circular {
@@ -52,6 +58,7 @@ h1 {
 	border-radius: 125px;
 	-webkit-border-radius: 125px;
 	-moz-border-radius: 125px;
+	float: left;
 }
 
 .speech-bubble {
@@ -60,7 +67,8 @@ h1 {
 	border-radius: .4em;
 	color: #222222;
 	width: 500px;
-	margin-left: 300px;
+	margin-left: 275px;
+	margin-top: 100px;
 }
 
 .speech-bubble:after {
