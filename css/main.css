@@ -5,7 +5,7 @@ body {
 	margin: 0;
 }
 
-nav {
+/*nav {
 	background-color: #222222;
 	height: 40px;
 	color: #afafaf;
@@ -22,7 +22,7 @@ nav a {
 
 .nav-contact {
 	float: right;
-}
+}*/
 
 h1 {
 	color: #f4c06c;
@@ -66,7 +66,7 @@ h1 {
 	background: #f4c06c;
 	border-radius: .4em;
 	color: #222222;
-	width: 500px;
+	width: 650px;
 	margin-left: 525px;
 	margin-top: 100px;
 
