@@ -2,6 +2,17 @@ body {
 	font-family: 'Noto Sans', sans-serif;
 	background-color: #45737f;
 	color: #fff;
+	margin: 0;
+}
+
+nav {
+	background-color: #22222;
+	height: 40px;
+	color: #afafaf;
+}
+
+.nav-contact {
+	float: right;
 }
 
 h1 {
