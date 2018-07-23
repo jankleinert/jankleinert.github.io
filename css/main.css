@@ -116,14 +116,14 @@ h1 {
 	.speech-bubble {
 			width: 450px;
 			margin-left: 0px;
-			margin-top: 10px;
+			margin-top: 20px;
 	}
 
 	.speech-bubble:after {
 		content: '';
 		position: absolute;
 		top: 0;
-		left: 50%;
+		left: 60%;
 		width: 0;
 		height: 0;
 		border: 20px solid transparent;
@@ -164,14 +164,14 @@ h1 {
 	.speech-bubble {
 			width: 300px;
 			margin-left: 0px;
-			margin-top: 10px;
+			margin-top: 20px;
 	}
 
 	.speech-bubble:after {
 		content: '';
 		position: absolute;
 		top: 0;
-		left: 50%;
+		left: 60%;
 		width: 0;
 		height: 0;
 		border: 20px solid transparent;
