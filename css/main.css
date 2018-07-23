@@ -109,13 +109,14 @@ h1 {
 		border-radius: 200px;
 		-webkit-border-radius: 200px;
 		-moz-border-radius: 200px;
+		float: none;
 
 	}
 
 	.speech-bubble {
 			width: 450px;
 			margin-left: 0px;
-			margin-top: 0px;
+			margin-top: 10px;
 	}
 
 	.speech-bubble:after {
@@ -129,8 +130,8 @@ h1 {
 		border-right-color: #f4c06c;
 		border-left: 0;
 		border-top: 0;
-		margin-top: -10px;
-		margin-left: -20px;
+		margin-left: -10px;
+		margin-top: -20px;
 	}
 
 	.intro-title {
