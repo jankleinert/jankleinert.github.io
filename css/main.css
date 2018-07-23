@@ -127,7 +127,7 @@ h1 {
 		width: 0;
 		height: 0;
 		border: 20px solid transparent;
-		border-right-color: #f4c06c;
+		border-bottom-color: #f4c06c;
 		border-left: 0;
 		border-top: 0;
 		margin-left: -10px;
