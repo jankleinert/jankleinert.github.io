@@ -144,10 +144,50 @@ h1 {
 
 }
 
-	
 
-@media all and (min-width: 480px) and (max-width: 767px) 
-{  }
+@media all and (max-width: 479px) {
 
-@media all and (max-width: 479px) 
-{  }
+	h1 {
+		font-size: 2.5rem;
+	}
+
+	.img-circular {
+		width: 300px;
+		height: 300px;
+		border-radius: 150px;
+		-webkit-border-radius: 150px;
+		-moz-border-radius: 150px;
+		float: none;
+
+	}
+
+	.speech-bubble {
+			width: 3000px;
+			margin-left: 0px;
+			margin-top: 10px;
+	}
+
+	.speech-bubble:after {
+		content: '';
+		position: absolute;
+		top: 0;
+		left: 50%;
+		width: 0;
+		height: 0;
+		border: 20px solid transparent;
+		border-bottom-color: #f4c06c;
+		border-left: 0;
+		border-top: 0;
+		margin-left: -10px;
+		margin-top: -20px;
+	}
+
+	.intro-title {
+		font-size: 1.5rem;
+	}
+
+	.intro-text {
+		font-size: 1.0rem;
+	}
+
+}
