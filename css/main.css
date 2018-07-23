@@ -97,8 +97,53 @@ h1 {
 /*@media all and (min-width: 968px) and (max-width: 1023px) 
 {  }*/
 
-@media all and (min-width: 768px) and (max-width: 967px) 
-{  }
+@media all and (min-width: 480px) and (max-width: 967px) {
+
+	h1 {
+		font-size: 3rem;
+	}
+
+	.img-circular {
+		width: 400px;
+		height: 400px;
+		border-radius: 200px;
+		-webkit-border-radius: 200px;
+		-moz-border-radius: 200px;
+
+	}
+
+	.speech-bubble {
+			width: 450px;
+			margin-left: 0px;
+			margin-top: 0px;
+	}
+
+	.speech-bubble:after {
+		content: '';
+		position: absolute;
+		top: 0;
+		left: 50%;
+		width: 0;
+		height: 0;
+		border: 20px solid transparent;
+		border-right-color: #f4c06c;
+		border-left: 0;
+		border-top: 0;
+		margin-top: -10px;
+		margin-left: -20px;
+	}
+
+	.intro-title {
+		font-size: 1.75rem;
+	}
+
+	.intro-text {
+		font-size: 1.25rem;
+	}
+
+}
+
+	
 
 @media all and (min-width: 480px) and (max-width: 767px) 
 {  }
